@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body class="font-body bg-light-grayish-blue-1">
+  <main class="lg:w-2/5 sm:w-full m-auto bg-white rounded-xl p-6">
+    <header class="flex justify-between items-end mb-6">
+      <div class="flex flex-row items-center gap-x-3">
+        <h2 class="font-bold lg:text-2xl sm:text-xl text-very-dark-blue">Notifications</h2>
+        <span class="text-white font-bold bg-blue text-center w-8 rounded">3</span>
+      </div>
+      <span class="text-dark-grayish-blue cursor-pointer hover:text-blue" id="btnNotifications">Mark all as read</span>
+    </header>
+    <section class="flex flex-col gap-y-2">
+      <div class="flex items-center gap-x-4 bg-very-light-grayish-blue rounded p-4">
+        <img class="w-12" src="./assets/images/avatar-mark-webber.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <div class="flex flex-row items-center gap-x-1">
+            <p><span class="font-bold text-very-dark-blue">Mark Webber</span> reacted to your recent post <span
+                class="font-bold text-dark-grayish-blue cursor-pointer hover:text-blue">My first tournament
+                today!</span></p>
+            <div class="bullet">&bullet;</div>
+          </div>
+          <span class="text-grayish-blue">1m ago</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-x-4 bg-very-light-grayish-blue rounded p-4">
+        <img class="w-12" src="./assets/images/avatar-angela-gray.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <div class="flex flex-row items-center gap-x-1">
+            <p><span class="font-bold text-very-dark-blue cursor-pointer hover:text-blue">Angela Gray</span> followed
+              you</p>
+            <div class="bullet">&bullet;</div>
+          </div>
+          <span class="text-grayish-blue">5m ago</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-x-4 bg-very-light-grayish-blue rounded p-4">
+        <img class="w-12" src="./assets/images/avatar-jacob-thompson.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <div class="flex flex-row items-center gap-x-1">
+            <p><span class="font-bold text-very-dark-blue">Jacob Thompson</span> has joined your group <span
+                class="font-bold text-blue cursor-pointer">Chess Club</span></p>
+            <div class="bullet">&bullet;</div>
+          </div>
+          <span class="text-grayish-blue">1 day ago</span>
+        </div>
+      </div>
+      <div class="flex items-start gap-x-4 p-4">
+        <img class="w-12" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <div class="flex gap-x-1">
+            <p><span class="font-bold text-very-dark-blue">Rizky Hasanuddin</span> sent you a private message</p>
+          </div>
+          <span class="text-grayish-blue">5 days ago</span>
+          <p class="p-4 mt-2 border-solid border border-grayish-blue rounded text-dark-grayish-blue cursor-pointer hover:bg-light-grayish-blue-2 hover:border-transparent">Hello, thanks for
+            setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and
+            improving my game.</p>
+        </div>
+      </div>
+      <div class="flex justify-between items-start gap-x-4 p-4">
+        <div class="flex flex-row items-center gap-x-4">
+          <img class="w-12" src="./assets/images/avatar-kimberly-smith.webp" alt="user-avatar">
+          <div class="flex flex-col">
+            <p><span class="font-bold text-very-dark-blue">Kimberly Smith</span> commented on your picture</p>
+            <span class="text-grayish-blue">1 week ago</span>
+          </div>
+        </div>
+        <img class="w-12 cursor-pointer hover:border-2 hover:rounded-lg hover:border-light-grayish-blue-2"
+          src="./assets/images/image-chess.webp" alt="image">
+      </div>
+      <div class="flex items-start gap-x-4 p-4">
+        <img class="w-12" src="./assets/images/avatar-nathan-peterson.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <p><span class="font-bold text-very-dark-blue">Nathan Peterson</span> reacted to your recent post <span
+              class="font-bold text-dark-grayish-blue">5
+              end-game strategies to increase your win
+              rate</span></p>
+          <span class="text-grayish-blue">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="flex items-start gap-x-4 p-4">
+        <img class="w-12" src="./assets/images/avatar-anna-kim.webp" alt="user-avatar">
+        <div class="flex flex-col">
+          <p><span class="font-bold text-very-dark-blue">Anna Kim</span> left the group <span
+              class="font-bold text-blue">Chess Club</span></p>
+          <span class="text-grayish-blue">2 weeks ago</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/index.js"></script>
+</body>
+
+</html>
